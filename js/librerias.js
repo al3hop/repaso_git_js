@@ -28,3 +28,8 @@
 */
 
 // Escribe aquí tu código
+
+AOS.init({
+    duration: 800,
+    once: true
+});

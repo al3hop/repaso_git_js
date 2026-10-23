@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- ===== CSS DE LIBRERÍAS (Persona B los añade aquí) ===== -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 
     <!-- Nuestro CSS propio -->
     <link rel="stylesheet" href="css/styles.css">
@@ -75,10 +76,10 @@
         <!-- ================= PORTADA ================= -->
         <section id="inicio" class="mx-auto max-w-6xl px-5 py-20 md:py-28">
             <p class="text-sm font-semibold uppercase tracking-[0.3em] text-suave">Ferretería y mercería · Lavapiés · Desde 1962</p>
-            <h1 class="mt-5 max-w-3xl font-rotulo text-5xl leading-tight font-bold md:text-7xl">
+            <h1 data-aos="fade-up" class="mt-5 max-w-3xl font-rotulo text-5xl leading-tight font-bold md:text-7xl">
                 Si no lo tenemos, <span class="text-acento italic">se lo pedimos.</span>
             </h1>
-            <p class="mt-6 max-w-xl text-lg text-suave">
+            <p data-aos="fade-up" class="mt-6 max-w-xl text-lg text-suave">
                 Tornillos sueltos, botones de nácar, hilo de todos los colores y consejo de toda la vida. Tres generaciones detrás del mismo mostrador.
             </p>
             <a href="#productos" class="mt-10 inline-block rounded-full bg-acento px-8 py-3 font-semibold text-fondo hover:opacity-90">
@@ -89,7 +90,7 @@
         <!-- ================= PRODUCTOS ================= -->
         <section id="productos" class="border-y border-borde bg-superficie py-20">
             <div class="mx-auto max-w-6xl px-5">
-                <h2 class="titulo-seccion font-rotulo text-4xl font-bold">Lo más pedido</h2>
+                <h2 data-aos="fade-right" class="titulo-seccion font-rotulo text-4xl font-bold">Lo más pedido</h2>
                 <p class="mt-3 text-suave">Precios del mostrador, IVA incluido.</p>
 
                 <!-- Persona B: convertir esta rejilla en un slider con Swiper -->
@@ -144,7 +145,7 @@
         <!-- ================= PREGUNTAS FRECUENTES ================= -->
         <!-- Reto extra (en casa): convertir en acordeón con jQuery -->
         <section id="preguntas" class="mx-auto max-w-3xl px-5 py-20">
-            <h2 class="titulo-seccion font-rotulo text-4xl font-bold">Preguntas frecuentes</h2>
+            <h2 data-aos="fade-right" class="titulo-seccion font-rotulo text-4xl font-bold">Preguntas frecuentes</h2>
 
             <div class="mt-10 divide-y divide-borde border-y border-borde">
                 <div class="py-5">
@@ -184,6 +185,7 @@
     </footer>
 
     <!-- ===== JS DE LIBRERÍAS (Persona B los añade aquí, ANTES de nuestro JS) ===== -->
+     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
     <!-- ===== NUESTRO JAVASCRIPT ===== -->
     <script src="js/interfaz.js"></script>
